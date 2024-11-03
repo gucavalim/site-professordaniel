@@ -97,6 +97,7 @@ main > article {
     border-bottom-right-radius: 10px;
     background-color: white;
     color: black;
+    line-height: 1.5em;
 }
 
 #dois {
@@ -166,6 +167,10 @@ nav > a.carreira:hover {
     color: #ffffff;
 }
 
+#pg1 {
+    background-color: var(--cor2);
+}
+
 #pg2 {
     background-color: var(--cor2);
 }
@@ -215,8 +220,28 @@ picture > img {
     padding-bottom: 5px;
   }
 
-footer {
-    background-color: #042b33d0;
+  #shein {
+    background-color: rgba(0, 0, 0, 0.363);
+    font-family: var(--fonte-parágrafo);
+    font-size: 1.3em;
+  }
+
+  .home:hover {
     color: white;
-    text-align: center;
+    background-color: var(--cor2);
+
+  }
+
+footer {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.527);
 }
+
+footer > p {
+    font-size: 1.5em;
+    font-family: var(--fonte-parágrafo);
+    text-align: center;
+    width: 100%;
+}
+
