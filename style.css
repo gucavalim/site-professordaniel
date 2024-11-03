@@ -161,10 +161,59 @@ iframe {
     padding: 10px;
 }
 
-.carreira {
+nav > a.carreira:hover {
     background-color: var(--cor2);
-    color: #a87350;
+    color: #ffffff;
 }
+
+#pg2 {
+    background-color: var(--cor2);
+}
+
+#pg3 {
+    background-color: var(--cor2);
+}
+
+#pg4 {
+    background-color: var(--cor2);
+}
+
+#pg5 {
+    background-color: var(--cor2);
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+}
+
+picture > img {
+    padding: 26px;
+}
+
+.coluna {
+    float: left;
+    width: 33.33%;
+}
+    
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+   
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  div > img {
+    padding: 25px;
+    padding-bottom: 5px;
+  }
 
 footer {
     background-color: #042b33d0;
