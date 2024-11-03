@@ -109,6 +109,12 @@ div > picture > img{
     margin: auto;
 }
 
+picture {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 img.imgtres {
     width: 400px;
     height: 300px;
