@@ -1,22 +1,30 @@
 @charset "UTF-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&display=swap');
 
 
+@font-face {
+    font-family: Osvaldo;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(Lora-VariableFont_wght.ttf);
+}
+
+
 :root {
-    --cor0: #07AADB;
+    --cor0: #CF6523;
     --cor1: #5e2a00;
-    --cor2: #36C2CC;
-    --cor3: #58A8B0;
-    --cor4: #446265;
+    --cor2: #382417;
+    --cor3: #6C5648;
+    --cor4: #7A553D;
     --cor5: #B8DBDE;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: "Bebas Neue", sans-serif;
-    --fonte-android: 'Android', sans-serif;
+    --fonte-amais: 'Osvaldo', sans-serif;
+    --fonte-parágrafo: 'Lora', sans-serif;
 }
 
 * {
@@ -30,14 +38,12 @@ body {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.478);
     background-size: cover;
     background-attachment: fixed;
-    
-    
-
+    font-family: var(--fonte-parágrafo);
 }
 
 header {
     text-align: center;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to top, #1b0d03, #7c370c);
     padding: 10px;
     height: 125px;
     color: white;
@@ -45,25 +51,39 @@ header {
 
 header > h1 {
     color: white;
+    font-family: var(--fonte--amais);
+    font-size:4.5em;
     
+}
+
+header > p {
+    font-family: var(--fonte-parágrafo);
 }
 
 nav {
     text-align: left;
     text-decoration: none;
     padding: 10px;
-    background-color: var(--cor1);
+    background-color: #1b0d03;
     
 }
 
 nav > a {
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+    text-decoration: none;
+    font-family: var(--fonte--amais);
+    font-size: 1.1em;
+    color: #a87350;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: #a87350;
 }
 
 main > article {
@@ -82,7 +102,12 @@ main > article {
 #dois {
     width: 100%;
     background-color: var(--cor1);
-    height: 50px;
+    height: 90px;
+}
+
+main > article > h2 {
+    font-size: 2em;
+    font-family: var(--fonte--titulo);
 }
 
 main > article > p {
@@ -134,6 +159,11 @@ img.imgtres {
 
 iframe {
     padding: 10px;
+}
+
+.carreira {
+    background-color: var(--cor2);
+    color: #a87350;
 }
 
 footer {
