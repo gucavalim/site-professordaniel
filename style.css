@@ -19,6 +19,7 @@
 }
 
 body {
+    background-image: -o-linear-gradient();
 
 }
 
@@ -53,7 +54,7 @@ nav > a {
     transition-duration: .5s;
 }
 
-main {
+main > article {
     min-width: 300px;
     max-width: 800px;
     margin: auto;
@@ -62,6 +63,18 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+aside {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 div {
@@ -73,4 +86,10 @@ div > picture > img{
     height: 400px;
     text-align: center;
     padding: 13px;
+}
+
+footer {
+    background-color: #042b33d0;
+    color: white;
+    text-align: center;
 }
