@@ -220,6 +220,7 @@ picture > img {
     padding-bottom: 5px;
   }
 
+
   #shein {
     background-color: rgba(0, 0, 0, 0.363);
     font-family: var(--fonte-parágrafo);
@@ -229,10 +230,36 @@ picture > img {
   .home:hover {
     color: white;
     background-color: var(--cor2);
+    }
 
+  
+
+  main.contato > article.lau > p > a#bla {
+    width: 900px;
+    color: rgb(255, 255, 255);
+  }
+
+  main.contato > article.lau > p {
+    color: rgba(255, 255, 255, 0.377);
   }
 
 
+  main.contato > article.lau {
+    background-color: var(--cor4);
+    width: 1000px;
+}
+  
+.you:hover {
+    background-color: red;
+}
+
+.face:hover {
+    background-color: blue;
+}
+
+.insta:hover {
+    background-image: linear-gradient(to right, rgba(146, 62, 146, 0.863), rgba(196, 61, 129, 0.904));
+}
 
 
 footer {
