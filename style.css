@@ -86,6 +86,10 @@ nav > a:hover {
     color: #a87350;
 }
 
+main {
+    padding: 16px;
+}
+
 main > article {
     min-width: 200px;
     max-width: 650px;
@@ -115,11 +119,6 @@ main > article > p {
     text-align: justify;
 }
 
-main.contato {
-    background-color: #5e2a006c;
-    width: 310px;
-    font-size: 1.5em;
-}
 
 aside {
     min-width: 250px;
@@ -237,20 +236,28 @@ picture > img {
   
 
   main.contato > article.lau > p > a#bla {
-    width: 900px;
+    width: 600px;
     color: rgb(255, 255, 255);
   }
 
   main.contato > article.lau > p {
     color: rgba(255, 255, 255, 0.377);
+    text-align: center;
   }
 
+  main.contato {
+    width: 600px;
+    font-size: 1.5em;
+    display: inline;
+    text-align: center;
+  }
 
   main.contato > article.lau {
-    background-color: var(--cor4);
-    width: 1000px;
+    background-color: #1b0d03e1;
 }
   
+
+
 .you:hover {
     background-color: red;
 }
