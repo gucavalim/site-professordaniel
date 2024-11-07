@@ -39,6 +39,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: var(--fonte-parágrafo);
+    
 }
 
 header {
@@ -76,7 +77,6 @@ nav > a {
     font-size: 1.1em;
     color: #a87350;
     border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
 }
@@ -97,7 +97,7 @@ main > article {
     border-bottom-right-radius: 10px;
     background-color: white;
     color: black;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 #dois {
@@ -132,6 +132,8 @@ aside {
     border-bottom-right-radius: 10px;
     background-color: white;
     color: black;
+    line-height: 1.6em;
+    
 
 }
 
