@@ -149,6 +149,14 @@ img.imgtres {
     height: 300px;
 }
 
+.iframe {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
 
 iframe {
     padding: 10px;
