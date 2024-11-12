@@ -106,8 +106,8 @@ main {
 }
 
 main > article {
-    min-width: 200px;
-    max-width: 700px;
+    min-width: 210px;
+    max-width: 720px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -295,6 +295,10 @@ footer > p {
     font-family: var(--fonte-parágrafo);
     text-align: center;
     width: 100%;
+}
+
+img.peq {
+    
 }
 
 
