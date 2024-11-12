@@ -32,40 +32,47 @@
     padding: 0%;
 }
 
+
 body {
-    background-image: url(violao-006.jpg);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.478);
+    font-family: var(--fonte-parágrafo);
+    background-image: url(violao-006.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-family: var(--fonte-parágrafo);
-    
 }
 
 header {
     text-align: center;
     background-image: linear-gradient(to top, #1b0d03, #7c370c);
-    padding: 10px;
-    height: 125px;
     color: white;
+    min-height: 50px;
+    max-height: 240px;
+    padding-top: 12px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte--amais);
     font-size:4.5em;
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+    margin-bottom: 5px;
 }
 
 header > p {
     font-family: var(--fonte-parágrafo);
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+    padding-bottom: 20px;
+    font-size: 1.0em;
 }
 
 nav {
-    text-align: left;
     text-decoration: none;
     padding: 10px;
     background-color: #1b0d03;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.185);
     
 }
 
@@ -88,6 +95,9 @@ nav > a:hover {
 
 main {
     padding: 16px;
+    background-image: url(violao-006.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main > article {
@@ -151,6 +161,7 @@ img.imgtres {
 
 .iframe {
     text-align: center;
+    background-color: #1b0d03;
 }
 
 div {
@@ -230,23 +241,18 @@ picture > img {
     }
 
   
-
-  main.contato > article.lau > p > a#bla {
-    width: 600px;
-    color: rgb(255, 255, 255);
-  }
+    main.contato > article.lau > p > a#bla {
+        width: 600px;
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+      }
 
   main.contato > article.lau > p {
     color: rgba(255, 255, 255, 0.377);
     text-align: center;
+    font-size: 1.2em;
   }
 
-  main.contato {
-    width: 600px;
-    font-size: 1.5em;
-    display: inline;
-    text-align: center;
-  }
 
   main.contato > article.lau {
     background-color: #1b0d03e1;
