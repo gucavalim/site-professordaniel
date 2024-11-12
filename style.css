@@ -259,7 +259,7 @@ picture > img {
       }
 
   main.contato > article.lau > p {
-    color: rgba(201, 184, 184, 0.377);
+    color: rgba(255, 255, 255, 0.534);
     text-align: center;
     font-size: 1.2em;
   }
@@ -267,6 +267,8 @@ picture > img {
 
   main.contato > article.lau {
     background-color: #1b0d03e1;
+    min-width: 300px;
+    max-width: 650px;
 }
   
 
