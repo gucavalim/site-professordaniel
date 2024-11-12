@@ -32,6 +32,10 @@
     padding: 0%;
 }
 
+a#link::after {
+    content: "🔗\00A0";
+}
+
 
 body {
     color: white;
@@ -162,7 +166,7 @@ img.imgtres {
 
 .iframe {
     text-align: center;
-    background-color: #1b0d03;
+    background-color: #ffffff;
 }
 
 div {
@@ -172,6 +176,7 @@ div {
 
 iframe {
     padding: 10px;
+    width: 90%;
 }
 
 nav > a.carreira:hover {
@@ -204,6 +209,11 @@ p > a {
     color: white;
 }
 
+a.black {
+    color: black;
+    text-decoration: underline;
+}
+
 picture > img {
     padding: 26px;
     width: 80%;
@@ -231,9 +241,9 @@ picture > img {
   
 
   #shein {
-    background-color: rgba(0, 0, 0, 0.363);
     font-family: var(--fonte-parágrafo);
-    font-size: 1.3em;
+    font-size: 0.9em;
+    padding: 8px;
   }
 
   .home:hover {
@@ -249,7 +259,7 @@ picture > img {
       }
 
   main.contato > article.lau > p {
-    color: rgba(255, 255, 255, 0.377);
+    color: rgba(201, 184, 184, 0.377);
     text-align: center;
     font-size: 1.2em;
   }
@@ -286,4 +296,5 @@ footer > p {
     text-align: center;
     width: 100%;
 }
+
 
